@@ -310,6 +310,12 @@ blockquote {
   width: 38.25em;
 }
 
+.container.medium a {
+  color: inherit;
+  font: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 @media screen and (max-width: 1280px) {
   .container {
     width: 48em;
@@ -2124,6 +2130,9 @@ header.major.last:after {
 header.major.last h2 {
   margin-bottom: 1em;
 }
+header.major a {
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 footer {
   text-align: center;
@@ -2563,8 +2572,8 @@ ul.icons li span {
 }
 
 ul.icons li a:hover,
-ul.icons li span:hover {
-  background: rgba(224, 224, 224, 0.15);
+ul.icons li :hover {
+  transform: scale(0.8);
 }
 
 /* Table */
@@ -2751,8 +2760,8 @@ input[type="button"].small,
 
 .feature .content {
   display: inline-block;
-  padding: 3.5em;
-  vertical-align: middle;
+  padding: 2.5em;
+  vertical-align: top;
   width: 48%;
 }
 
