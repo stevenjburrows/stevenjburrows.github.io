@@ -2538,7 +2538,7 @@ ul.icons {
 
 ul.icons li {
   display: inline-block;
-  font-size: 1.25em;
+  font-size: 2em;
   line-height: 1em;
   padding-left: 0.5em;
 }
@@ -2829,6 +2829,13 @@ input[type="button"].small,
   padding: 10em 0 20em 0;
   position: relative;
   text-align: center;
+}
+
+#header ul li {
+  display: inline;
+  list-style: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 #header:before,
